@@ -1,15 +1,11 @@
 {
-  "name": "@utily/worker-template",
-  "version": "0.0.13",
-  "description": "Typescript template for Cloudflare Worker.",
-  "author": "Utily Contributors",
+  "name": "worker-nikahelp",
+  "version": "0.0.1",
+  "description": "Cloudflare Worker for calculating surplus time nikabot.",
+  "author": "Magnus Gustafsson",
   "license": "MIT",
   "private": false,
-  "repository": "https://github.com/utily/worker-template",
-  "bugs": {
-    "url": "https://github.com/utily/worker-template/issues"
-  },
-  "homepage": "https://github.com/utily",
+  "repository": "https://github.com/Magnus93/nikasurplus",
   "main": "dist/_worker.js",
   "typings": "dist/index.d.ts",
   "type": "module",

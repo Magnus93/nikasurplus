@@ -1,8 +1,7 @@
 compatibility_date = "2021-10-21"
 type = "javascript"
-name = "worker-template"
-account_id = "abcdefg01234567890"
-zone_id = "abcdefg01234567890"
+name = "worker-nikahelp"
+account_id = "5b35215b046c82bd89f9032f6fb97d65"
 workers_dev = true
 routes = []
 vars = { }
@@ -17,9 +16,6 @@ main = "./_worker.js"
 
 [env.wrangler]
 workers_dev = true
-account_id = "abcdefg01234567890"
+account_id = "5b35215b046c82bd89f9032f6fb97d65"
 vars = {  }
 
-[miniflare]
-durable_objects_persist = "./.miniflare/durable-objects/"
-kv_persist = "./.miniflare/kv/"
