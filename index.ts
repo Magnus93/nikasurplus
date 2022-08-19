@@ -1,8 +1,7 @@
 import { Context } from "./Context"
 import { Environment } from "./Environment"
 
-import "./item"
-import "./version"
+import "./surplus"
 
 export default {
 	async fetch(request: Request, environment: Environment) {

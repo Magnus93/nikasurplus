@@ -4,7 +4,7 @@ name = "worker-template"
 account_id = "abcdefg01234567890"
 zone_id = "abcdefg01234567890"
 workers_dev = true
-routes = ["https://example.com/item*"]
+routes = []
 vars = { }
 port = 8787
 
@@ -19,12 +19,6 @@ main = "./_worker.js"
 workers_dev = true
 account_id = "abcdefg01234567890"
 vars = {  }
-
-[env.miniflare]
-vars = { }
-durable_objects.bindings = [
-
-]
 
 [miniflare]
 durable_objects_persist = "./.miniflare/durable-objects/"
